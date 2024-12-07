@@ -1,0 +1,1 @@
+<?php $serverName="localhost";$username="root";$password="";$database="sriscan_10-08-24to10-08-25";$conn=mysqli_connect($serverName,$username,$password,$database);if($conn->connect_error){die("Connection failed: ".$conn->connect_error);}else{}
